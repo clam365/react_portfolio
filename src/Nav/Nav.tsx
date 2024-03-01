@@ -1,5 +1,7 @@
 export default function Nav() {
     return(
-        <div></div>
+        <nav className={"bg-transparent"}>
+            <div className={"font-semibold text-[2rem]"}>CHRIS LAM</div>
+        </nav>
     )
 }

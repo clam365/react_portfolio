@@ -3,11 +3,12 @@ import './App.css';
 import NavBar from "../src/Nav/Nav";
 
 function App() {
-  return (
-    <div>
-      <NavBar/>
-    </div>
-  );
+    return (
+        <body>
+            <NavBar/>
+        </body>
+
+    );
 }
 
 export default App;
