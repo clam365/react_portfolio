@@ -14,6 +14,7 @@
         display: none;
     }
     #hamburger-nav {
+        visibility: visible;
         display: flex;
     }
 
