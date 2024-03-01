@@ -30,7 +30,7 @@ export default function HamburgerNav() {
                         onClick={toggleMenu}
                         id={"hamburger-icon"}
                     >
-                        <span ></span>
+                        <span></span>
                         <span></span>
                         <span></span>
                     </div>
