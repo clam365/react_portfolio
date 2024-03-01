@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from "../src/Nav/Nav";
 
 function App() {
   return (
-    <div className="App">
-      Welcome
+    <div>
+      <NavBar/>
     </div>
   );
 }
