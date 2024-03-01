@@ -6,7 +6,7 @@
 
 
 * {
-    background-image: url("images/background.jpg");
+
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -17,4 +17,48 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-image: url("images/background.jpg");
 }
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+    background: transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    background: transparent;
+    transition: 300ms ease;
+}
+
+/* hamburger css */
+#hamburger-nav {
+    display: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+    transform: none;
+    opacity: 1;
+}
+
+/* section global css */
+
