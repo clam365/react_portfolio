@@ -20,18 +20,32 @@ body {
     background-image: url("assets/background.jpg");
 }
 
+
 a {
-    color: black;
     text-decoration: none;
-    text-decoration-color: black;
+    color: #635D5C;
     background: transparent;
+    position: relative;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #635D5C;
+    transition: width 0.3s ease;
+}
+
+a:hover::before {
+    width: 100%;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Remove the default underline on hover */
     text-underline-offset: 1rem;
-    background: transparent;
-    transition: 300ms ease;
 }
 
 /* hamburger css */

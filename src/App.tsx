@@ -13,8 +13,8 @@ function App() {
 
             <div style={{
                 position: 'absolute',
-                top: 0,
-                left: 0,
+                top: 45,
+                left: -40,
                 width: '100%',
                 height: '100%',
                 zIndex: 0,
