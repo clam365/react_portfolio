@@ -1,5 +1,5 @@
 import React from 'react';
-import SplineBlob from "../src/assets/blobsSpline.png";
+import SplineBlob from "../src/assets/blobs2.png";
 import ProfileSection from "../src/Sections/ProfileSection/Profile";
 import "./App.css";
 import "./mediaqueries.css";
