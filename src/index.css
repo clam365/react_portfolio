@@ -23,7 +23,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #635D5C;
+    color: black;
     background: transparent;
     position: relative;
 }
@@ -35,7 +35,7 @@ a::before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #635D5C;
+    background-color: black;
     transition: width 0.3s ease;
 }
 

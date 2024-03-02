@@ -11,9 +11,9 @@ export default function SocialsContainer() {
 
     return(
         <div className={"flex justify-center mt-[1rem] gap-[1rem]"}>
-            <img src={LinkedInIcon} alt={"LinkedIn"} className={"bg-transparent cursor-pointer h-[2rem]"}
+            <img src={LinkedInIcon} alt={"LinkedIn"} className={"bg-transparent cursor-pointer h-[2rem] hover:invert transition-all"}
                  onClick={handleLinkedIn}/>
-            <img src={GithubIcon} alt={"Github"} className={"bg-transparent cursor-pointer h-[2rem]"}
+            <img src={GithubIcon} alt={"Github"} className={"bg-transparent cursor-pointer h-[2rem] hover:invert transition-all"}
                  onClick={handleGitHub}/>
 
         </div>
