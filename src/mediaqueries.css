@@ -53,6 +53,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    #splineBlob {
+        display: none;
+    }
+
     #contact, footer {
         height: 40vh;
     }
