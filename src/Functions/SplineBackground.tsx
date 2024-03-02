@@ -1,4 +1,6 @@
 import SplineBlob from "../assets/blobs2.png";
+import SplineBlob2 from "../assets/blob1.png";
+import SplineBlob3 from "../assets/blob3.png";
 import React, {useEffect, useRef} from "react";
 
 export default function SplineBackground() {
@@ -36,21 +38,41 @@ export default function SplineBackground() {
     }, []);
 
     return (
-        <div
-            id="splineBlob"
-            ref={splineBlobRef}
-            style={{
-                position: 'absolute',
-                top: 200,
-                left: 200,
-                width: '100%',
-                height: '100%',
-                zIndex: 0,
-                pointerEvents: 'none',
-                transition: 'transform 0.2s ease-out' // Optional: Add a smooth transition
-            }}
-        >
-            <img src={SplineBlob} alt={""} className={"profileSection"}/>
+        <div>
+            <div
+                id="splineBlob"
+                ref={splineBlobRef}
+                style={{
+                    position: 'absolute',
+                    top: 200,
+                    left: 200,
+                    width: '100%',
+                    height: '100%',
+                    zIndex: 0,
+                    pointerEvents: 'none',
+                    transition: 'transform 0.2s ease-out' // Optional: Add a smooth transition
+                }}
+            >
+                <img src={SplineBlob} alt={""} className={"profileSection"}/>
+                <img src={SplineBlob2} alt={""} className={"profileSection "} style={{
+                    position: 'absolute',
+                    top: -100,
+                    left: -150,
+                    zIndex: 0,
+                    pointerEvents: 'none',
+                    transition: 'transform 0.2s ease-out'
+                }}/>
+                <img src={SplineBlob3} alt={""} className={"profileSection "} style={{
+                    position: 'absolute',
+                    top: 150,
+                    left: -125,
+                    zIndex: 0,
+                    pointerEvents: 'none',
+                    transition: 'transform 0.2s ease-out'
+                }}/>
+            </div>
+
         </div>
+
     );
 }
