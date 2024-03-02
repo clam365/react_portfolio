@@ -13,10 +13,10 @@ export default function ButtonContainer() {
 
     return (
         <div className={"btn-container"}>
-            <button className={"btn btn-color-2"} onClick={handleDownloadCV}>
+            <button className={"btn btn-color-2 hover:border-white"} onClick={handleDownloadCV}>
                 Download CV
             </button>
-            <button className={"btn btn-color-1"} onClick={handleContactClick}>
+            <button className={"btn btn-color-1 border-[0.1rem] border-white hover:border-[#635D5C]"} onClick={handleContactClick}>
                 Contact Me
             </button>
         </div>

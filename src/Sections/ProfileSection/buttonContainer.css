@@ -15,7 +15,7 @@
 }
 
 .btn-color-1, .btn-color-2 {
-    border: rgb(53,53,53) 0.1rem solid;
+    border: #635D5C 0.1rem solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
@@ -23,7 +23,7 @@
 }
 
 .btn-color-1, .btn-color-2:hover {
-    background: rgb(53,53,53);
+    background: #635D5C;
     color: white;
 }
 
