@@ -21,7 +21,7 @@ export default function HamburgerNav() {
     return (
         <nav id={"hamburger-nav"} className={"bg-transparent flex justify-around items-center h-[17vh]  text-black"}>
 
-            <div className="font-semibold text-[2rem] bg-transparent hover:cursor-default logo">CHRIS LAM</div>
+            <div className="text-[#635D5C]  font-semibold text-[2rem] bg-transparent hover:cursor-default logo">CHRIS LAM</div>
 
             <div className={"font-semibold text-[2rem] hover:cursor-default "}>
                 <div className={"relative inline-block"}>
@@ -40,19 +40,19 @@ export default function HamburgerNav() {
                         className={"menu-links absolute top-[100%] right-0  w-fit max-h-0 overflow-hidden transition-all"}>
                         <li className={"list-none"}>
                             <a href={"#about"} onClick={toggleMenu}
-                               className={"block p-[10px] text-center text-[1.5rem] text-black no-underline transition-all"}>About</a>
+                               className={"block p-[10px] text-center text-[1.5rem] text-[#635D5C] no-underline transition-all"}>About</a>
                         </li>
                         <li className={"list-none"}>
                             <a href={"#skills"} onClick={toggleMenu}
-                               className={"block p-[10px] text-center text-[1.5rem] text-black no-underline transition-all"}>Skills</a>
+                               className={"block p-[10px] text-center text-[1.5rem] text-[#635D5C] no-underline transition-all"}>Skills</a>
                         </li>
                         <li className={"list-none"}>
                             <a href={"#projects"} onClick={toggleMenu}
-                               className={"block p-[10px] text-center text-[1.5rem] text-black no-underline transition-all"}>Projects</a>
+                               className={"block p-[10px] text-center text-[1.5rem] text-[#635D5C] no-underline transition-all"}>Projects</a>
                         </li>
                         <li className={"list-none"}>
                             <a href={"#contact"} onClick={toggleMenu}
-                               className={"block p-[10px] text-center text-[1.5rem] text-black no-underline transition-all"}>Contact</a>
+                               className={"block p-[10px] text-center text-[1.5rem] text-[#635D5C] no-underline transition-all"}>Contact</a>
                         </li>
                     </div>
 
