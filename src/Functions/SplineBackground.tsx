@@ -53,8 +53,8 @@ export default function SplineBackground() {
                     transition: 'transform 0.2s ease-out' // Optional: Add a smooth transition
                 }}
             >
-                <img src={SplineBlob} alt={""} className={"profileSection"}/>
-                <img src={SplineBlob2} alt={""} className={"profileSection "} style={{
+                <img src={SplineBlob} alt={""} className={"profileSection z-0"}/>
+                <img src={SplineBlob2} alt={""} className={"profileSection z-0"} style={{
                     position: 'absolute',
                     top: -100,
                     left: -150,
@@ -62,7 +62,7 @@ export default function SplineBackground() {
                     pointerEvents: 'none',
                     transition: 'transform 0.2s ease-out'
                 }}/>
-                <img src={SplineBlob3} alt={""} className={"profileSection "} style={{
+                <img src={SplineBlob3} alt={""} className={"profileSection z-0"} style={{
                     position: 'absolute',
                     top: 150,
                     left: -125,

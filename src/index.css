@@ -130,5 +130,6 @@ section {
 }
 
 .profileSection {
-    animation: 2s anim-lineUp ease-out;
+    animation: 4s anim-lineUp ease-out;
 }
+

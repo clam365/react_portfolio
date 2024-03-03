@@ -16,7 +16,7 @@ export default function ButtonContainer() {
             <button className={"btn btn-color-2"} onClick={handleDownloadCV}>
                 Download CV
             </button>
-            <button className={"btn btn-color-1 border-[0.1rem]  hover:border-[#635D5C]"} onClick={handleContactClick}>
+            <button className={"btn btn-color-1 border-[0.1rem]  hover:border-black"} onClick={handleContactClick}>
                 Contact Me
             </button>
         </div>
