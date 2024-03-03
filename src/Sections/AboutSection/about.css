@@ -1,0 +1,80 @@
+/* About Section */
+
+.about-p {
+    color: black;
+    background-color: white;
+}
+
+
+#about {
+    position: relative;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+h3 {
+    background-color: white;
+}
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background: transparent;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border: 1rem black;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border-color: black;
+    text-align: center;
+
+
+}
+
+.text-container {
+    background: transparent;
+}
+
+.about-icon {
+    height: 2rem;
+    background-color: white;
+}
+
+.section-container {
+    margin-top: 2.5rem;
+    gap: 4rem;
+    height: 80%;
+    background: transparent;
+    justify-content: center;
+
+}
+
+h3 {
+    background: transparent;
+}
+
+.experience-type {
+    color: black;
+}

@@ -4,6 +4,7 @@ import ActivitiesIcon from "../../assets/experience.png";
 import ArrowIcon from "../../assets/arrow.png";
 import '../../index.css';
 import '../../mediaqueries.css';
+import "../AboutSection/about.css";
 
 export default function AboutSection() {
     function handleArrowToSkillsClick() {
@@ -11,37 +12,32 @@ export default function AboutSection() {
     }
 
     return (
-        <section id="about" className={'z-50 relative flex-wrap'}>
-            <p className={'text-black font-semibold text-center m-[10px] text-[1.75rem] mb-[1rem]'}>Get To Know More</p>
-            <h1 className={'text-black font-bold text-[3rem] text-center -m-[15px]'}>ABOUT ME</h1>
+        <section id="about" className={'z-50 relative '}>
+            <p className={'section__text__p1'}>Get To Know More</p>
+            <h1 className={'text-black font-bold text-[3rem] text-center -m-[15px]  aboutMeText'}>ABOUT ME</h1>
 
-            <div className={"gap-[4rem] h-[80%] flex justify-center items-center m-auto section-container"}>
-                <div className={"m-auto section__pic-container"}>
-                    <img src={BeautifulMe} alt={"about-chris"} className={"rounded-full scale-110 border-black border-2"}/>
+            <div className="section-container flex">
+
+                <div className="section__pic-container">
+                    <img src={BeautifulMe} alt="Profile"
+                         className="about-pic rounded-full "/>
                 </div>
 
-                <div className={"justify-center flex-col "}>
-                    <div className={"flex justify-center about-containers"}>
-                        <div className={" mb-[2rem] mt-[2rem]"}>
-                            <div className={"flex gap-[4rem]"}>
-                                <div
-                                    className={"p-[1.5rem] flex-1 bg-white rounded-[2rem] border-black border-2 text-center hover:scale-105 transition-all"}>
-                                    <img src={EducationIcon} alt={"Education"} className={"h-[2rem]"}/>
-                                    <h3 className={"font-semibold"}>Education | GPA: 3.7</h3>
-                                    <p>B.S. Computer Science '26</p>
-                                </div>
-                                <div
-                                    className={"p-[1.5rem] flex-1 bg-white rounded-[2rem] border-black border-2 text-center hover:scale-105 transition-all"}>
-                                    <img src={ActivitiesIcon} alt={"activities"} className={"h-[2rem]"}/>
-                                    <h3 className={"font-semibold"}>Activities</h3>
-                                    <p className={""}>UEI Senior Video Editor <br/> SASE + SAE</p>
-                                </div>
-                            </div>
+                <div className="about-details-container">
+                    <div className="about-containers">
+                        <div className="details-container border-black border-2 hover:scale-105 transition-all">
+                            <img src={EducationIcon} alt="Education icon" className="about-icon"/>
+                            <h3>Education | GPA: 3.7</h3>
+                            <p className="about-p">B.S. Computer Science '26</p>
+                        </div>
+                        <div className="details-container border-black border-2 hover:scale-105 transition-all">
+                            <img src={ActivitiesIcon} alt="Experience icon" className="about-icon"/>
+                            <h3>Activities</h3>
+                            <p className="about-p">UEI Senior Video Editor <br/> SASE + SAE</p>
                         </div>
                     </div>
-
-                    <div className={"text-container"}>
-                        <p className={"ml-20 mr-20"}>
+                    <div className="text-container">
+                        <p>
                             Hi, my name is Chris Lam! I have an extreme passion for web development using all sorts of
                             libraries
                             along interests in building personal projects in Python regarding artificial intelligence
@@ -58,12 +54,14 @@ export default function AboutSection() {
                             diverse individuals and teams to create positive change.
                         </p>
                     </div>
-
                 </div>
             </div>
+            <br/>
+            <br/>
+            <br/>
 
             <img src={ArrowIcon} alt={"Arrow"}
-                 className={"absolute right-[-5rem] bottom-[2.5rem] h-[2rem] cursor-pointer arrow"}
+                 className={" right-[-7.5rem] bottom-[-0.5rem] h-[2rem] cursor-pointer arrow"}
                  onClick={handleArrowToSkillsClick}/>
         </section>
     );
