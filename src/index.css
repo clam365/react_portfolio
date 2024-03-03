@@ -105,7 +105,7 @@ a:hover {
 
 /* section global css */
 section {
-    height: 96vh;
+    height: 83vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -131,5 +131,63 @@ section {
 
 .profileSection {
     animation: 4s anim-lineUp ease-out;
+    justify-self: center;
 }
 
+.section__pic-container {
+    display: flex;
+    max-height: 400px;
+    max-width: 400px;
+    justify-content: center;
+    margin: auto ;
+    align-items: center;
+
+}
+
+.section__text {
+    display: grid;
+    margin-top: 6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    animation: 2s anim-lineUp ease-out;
+    background: transparent;
+
+}
+
+.section__text p {
+    font-weight: 600;
+    background: transparent;
+}
+
+.section__text__p1 {
+    text-align: center;
+    margin: 10px;
+    background: transparent;
+}
+
+.section__text__p1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    background: transparent;
+}
+
+h1 {
+    background: transparent;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    margin: -15px;
+    background: transparent;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    background:transparent;
+}

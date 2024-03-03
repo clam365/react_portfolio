@@ -1,17 +1,39 @@
-
-
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1201px) {
     #profile {
         height: 83vh;
-        margin-top: -10%;
+        margin-top: -8%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #profile .profileSection {
+        height: auto;
+        grid-template-rows: repeat(3, min-content);
+        margin-left: auto;
+        margin-right: auto; /* Center the profileSection horizontally */
+        text-align: center; /* Center the text within the profileSection */
+    }
+
+    #profile .profileSection h1 {
+        margin-bottom: 0.5rem;
     }
 
     .about-containers {
         flex-wrap: wrap;
     }
+
+    .section__pic-container img {
+        min-width: 400px;
+        min-height: 400px;
+    }
+
+
+
 }
 
 @media screen and (max-width: 1200px) {
+
+
     #desktop-nav {
         display: none;
     }
@@ -24,11 +46,13 @@
         margin-top: 2rem;
     }
 
+
     #profile, .section-container {
         height: 83vh;
 
         justify-content: center;
         display: flex;
+
     }
 
     .arrow {
@@ -37,6 +61,10 @@
 
     section, .section-container {
         height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
 
     section {
@@ -44,14 +72,29 @@
     }
 
     .section__pic-container {
-        width: 275px;
-        height: 275px;
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Set a height for the container */
+
     }
 
-    .about-containers {
-        margin-top: 0;
+    .section__pic-container img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        height: auto; /* Maintain the image's aspect ratio */
+        display: flex;;
+        justify-content: center;
+        margin: auto;
     }
+
+    .profileSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -106,10 +149,15 @@
         text-align: center;
     }
 
-    .section__pic-container {
-        width: auto;
-        height: 46vw;
+
+
+    .section__pic-container img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        height: auto; /* Maintain the image's aspect ratio */
+        display: flex;
         justify-content: center;
+        margin: auto;
+        transform: scale(75%);
     }
 
     .section__text-p2 {
