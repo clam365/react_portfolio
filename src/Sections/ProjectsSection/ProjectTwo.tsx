@@ -12,7 +12,8 @@ export default function ProjectTwo() {
                 <img
                     src={Yolo}
                     alt={"Yolov5"}
-                    className={"rounded-2xl w-[67.5rem] h-[16.25rem] projectVideo drop-shadow-lg"}
+                    className={"rounded-2xl w-[67.5rem] h-[16.25rem] projectVideo drop-shadow-lg cursor-pointer"}
+                    onClick={handleGithubProjectLink}
                 />
             </div>
             <div className="flex flex-col ml-8 projectDescription">
