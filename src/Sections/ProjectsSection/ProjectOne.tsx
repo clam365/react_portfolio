@@ -6,18 +6,18 @@ import NodeJSCL from "../SkillsSection/CodingLanguagesComponents/NodeJSCL";
 
 export default function ProjectOne(){
     return (
-        <div className="drop-shadow-xl bg-white p-5 rounded-3xl justify-center m-auto flex max-w-[55rem] hover:scale-105 transition-all projectContainer">
+        <div className="drop-shadow-xl bg-white p-5 rounded-3xl justify-center m-auto flex max-w-[55rem] hover:scale-105 transition-all mb-5 projectContainer">
             <div className="">
                 <iframe
                     src="https://www.youtube.com/embed/eopEfoL5e4c"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                    className={"rounded-2xl w-[22.5rem] h-[16.25rem] projectVideo"}
+                    className={"rounded-2xl w-[22.5rem] h-[16.25rem] projectVideo drop-shadow-lg"}
                 />
             </div>
             <div className="flex flex-col ml-8 projectDescription" >
-                <h1 className="text-black font-bold">MASS GENERAL BRIGHAM MAP KIOSK</h1>
+                <h1 className="text-black font-bold">Mass General Brigham Map Kiosk</h1>
                 <p className="text-black">With a team of 11, we applied the agile scrum methodology to create a
                     kiosk app to handle pathfinding and service requests. I led the frontend team as assistant lead
                     software developer spearheading version control and designing UI mockups through Figma.</p>

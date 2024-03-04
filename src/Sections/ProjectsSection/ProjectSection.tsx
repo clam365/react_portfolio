@@ -1,4 +1,5 @@
 import ProjectOne from "./ProjectOne";
+import ProjectTwo from "./ProjectTwo";
 export default function ProjectSection() {
     return(
         <section id={"projects"}>
@@ -7,6 +8,7 @@ export default function ProjectSection() {
 
             <div className={"mt-16"}>
                 <ProjectOne/>
+                <ProjectTwo/>
             </div>
 
 
