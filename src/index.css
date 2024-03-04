@@ -130,7 +130,7 @@ section {
 }
 
 .profileSection {
-    animation: 4s anim-lineUp ease-out;
+    animation: 5s anim-lineUp ease-out;
     justify-self: center;
 }
 
