@@ -31,8 +31,27 @@
 
 }
 
-@media screen and (max-width: 1200px) {
 
+
+@media screen and (max-width: 1200px) {
+    .projectContainer {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .projectVideo {
+        width: 85vw;
+        height: 40vh;
+        margin-bottom: 1rem;
+    }
+
+    .projectDescription {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
 
     #desktop-nav {
         display: none;
@@ -98,6 +117,20 @@
 }
 
 @media screen and (max-width: 600px) {
+
+
+    .projectVideo {
+        width: 80vw;
+        height: 20vh;
+        margin-bottom: 1rem;
+    }
+
+    .projectDescription {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
     #splineBlob {
         display: none;
     }
@@ -148,8 +181,6 @@
         gap: 0.5rem;
         text-align: center;
     }
-
-
 
     .section__pic-container img {
         max-width: 100%; /* Ensure the image doesn't exceed its container */
