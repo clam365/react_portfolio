@@ -23,7 +23,7 @@ export default function SkillsSection() {
                 <div className="about-containers">
                     <div className="details-containers drop-shadow-lg">
                         <h2 className="skill-sub-title font-semibold text-2xl">CODING LANGUAGES</h2>
-                        <div className={" mt-4 flex flex-wrap"}>
+                        <div className={" mt-4 flex flex-wrap justify-center"}>
                             <JavaCL/>
                             <PythonCL/>
                             <JavaScriptCL/>

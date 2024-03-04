@@ -21,9 +21,9 @@ export default function ProjectTwo() {
                 <p className="text-black">Using Ultralytic's YoloV5 algorithm, I trained and analyzed 20 different possible
                 objects for recognition, where model evaluations contain an average of 79% confidence rate.</p>
                 {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-                <p className={"text-gray-400 cursor-pointer hover:text-[#8477ff] transition-all underline"} onClick={handleGithubProjectLink}>Github Link</p>
+                <p className={"text-gray-400 cursor-pointer hover:text-[#8477ff] transition-all underline demoLinks"} onClick={handleGithubProjectLink}>Github Link</p>
 
-                <div className="flex mt-3 scale-90 flex-wrap">
+                <div className="flex mt-3 scale-90 flex-wrap projectFrameworks">
                     <PythonCL/>
                     <div
                         className="bg-[#8477ff] text-white drop-shadow-md scale-95 mb-1 inline-block p-2 mr-1 pl-5 pr-5 rounded-full hover:bg-[#8459FF] hover:scale-100 transition-all ">

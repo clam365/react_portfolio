@@ -41,6 +41,10 @@
         margin: auto auto 1rem;
     }
 
+    .projectFrameworks {
+        justify-content: center;
+    }
+
     .projectVideo {
         width: 85vw;
         height: 40vh;
@@ -118,6 +122,11 @@
 
 @media screen and (max-width: 600px) {
 
+    .demoLinks {
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+    }
 
     .projectVideo {
         width: 80vw;
