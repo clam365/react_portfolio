@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.de3f9aea.css",
+    "main.js": "/react_portfolio/static/js/main.c009bae6.js",
+    "static/js/453.bb177003.chunk.js": "/react_portfolio/static/js/453.bb177003.chunk.js",
+    "static/media/blobs2.png": "/react_portfolio/static/media/blobs2.aeec4b93cc0c16f248f2.png",
+    "static/media/aboutpic.png": "/react_portfolio/static/media/aboutpic.7b33e53e62f2a1305edd.png",
+    "static/media/yolov5.png": "/react_portfolio/static/media/yolov5.5d39419c321206f04976.png",
+    "static/media/mediapipe.png": "/react_portfolio/static/media/mediapipe.fa0acd947ea3308edb0c.png",
+    "static/media/mgbDemo.png": "/react_portfolio/static/media/mgbDemo.94799d5b2cd59fd7f367.png",
+    "static/media/email.png": "/react_portfolio/static/media/email.6f46bf7635f8e01d4016.png",
+    "static/media/background.jpg": "/react_portfolio/static/media/background.cad9520f894ca61faf68.jpg",
+    "static/media/blob3.png": "/react_portfolio/static/media/blob3.ccade38cbd7509010558.png",
+    "static/media/blob1.png": "/react_portfolio/static/media/blob1.3ca7d20919af9969c56f.png",
+    "static/media/experience.png": "/react_portfolio/static/media/experience.350268ef557f38402b56.png",
+    "index.html": "/react_portfolio/index.html",
+    "main.de3f9aea.css.map": "/react_portfolio/static/css/main.de3f9aea.css.map",
+    "main.c009bae6.js.map": "/react_portfolio/static/js/main.c009bae6.js.map",
+    "453.bb177003.chunk.js.map": "/react_portfolio/static/js/453.bb177003.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de3f9aea.css",
+    "static/js/main.c009bae6.js"
+  ]
+}
