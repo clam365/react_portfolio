@@ -6,6 +6,7 @@ import ProfileSection from "../src/Sections/ProfileSection/Profile";
 import AboutSection from "./Sections/AboutSection/AboutSection";
 import SkillsSection from "./Sections/SkillsSection/SkillsSection";
 import ProjectSection from "./Sections/ProjectsSection/ProjectSection";
+import ContactSection from "./Sections/ContactSection/ContactSection";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <AboutSection/>
             <SkillsSection/>
             <ProjectSection/>
+            <ContactSection/>
         </body>
 
     );

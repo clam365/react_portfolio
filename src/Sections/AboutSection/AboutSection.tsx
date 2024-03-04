@@ -1,13 +1,10 @@
-import ArrowIcon from "../../assets/arrow.png";
+
 import '../../index.css';
 import '../../mediaqueries.css';
 import "../AboutSection/about.css";
 import AboutDetailsContainer from "./AboutDetailsContainer";
 
 export default function AboutSection() {
-    function handleArrowToSkillsClick() {
-        window.location.href = '#skills';
-    }
 
     return (
         <section id="about" className={'z-50 relative '}>
@@ -18,9 +15,7 @@ export default function AboutSection() {
                 <br/>
                 <br/>
 
-            <img src={ArrowIcon} alt={"Arrow"}
-                 className={" right-[-7.5rem] bottom-[-0.5rem] h-[2rem] cursor-pointer arrow"}
-                 onClick={handleArrowToSkillsClick}/>
+
         </section>
     );
 }

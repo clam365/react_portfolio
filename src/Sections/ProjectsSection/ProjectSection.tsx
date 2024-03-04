@@ -1,9 +1,11 @@
 import ProjectOne from "./ProjectOne";
 import ProjectTwo from "./ProjectTwo";
 import ProjectThree from "./ProjectThree";
+
 export default function ProjectSection() {
+
     return(
-        <section id={"projects"}>
+        <section id={"projects"} className={""}>
             <p className="section__text__p1">Browse My Recent</p>
             <h1 className="title font-bold">PROJECTS</h1>
 
@@ -12,7 +14,6 @@ export default function ProjectSection() {
                 <ProjectTwo/>
                 <ProjectThree/>
             </div>
-
 
         </section>
     );

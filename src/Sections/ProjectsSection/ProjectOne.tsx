@@ -19,10 +19,10 @@ export default function ProjectOne(){
             </div>
             <div className="flex flex-col ml-8 projectDescription">
                 <h1 className="text-black font-bold">Mass General Brigham Map Kiosk</h1>
-                <p className="text-black">With a team of 11, we applied the agile scrum methodology to create a
+                <p className="text-gray-500">With a team of 11, we applied the agile scrum methodology to create a
                     kiosk app to handle pathfinding and service requests. I led the frontend team as assistant lead
                     software developer spearheading version control and designing UI mockups through Figma.</p>
-                <p className={"text-gray-400 cursor-pointer hover:text-[#8477ff] transition-all underline demoLinks"}
+                <p className={"text-[#8477ff] cursor-pointer hover:text-[#8459FF] transition-all underline demoLinks"}
                    onClick={handleYoutubeProjectLink}>Demo Link</p>
                 <div className="flex mt-3 scale-90 flex-wrap projectFrameworks">
                     <ReactJSCL/>

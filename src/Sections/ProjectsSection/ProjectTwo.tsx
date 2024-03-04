@@ -18,10 +18,10 @@ export default function ProjectTwo() {
             </div>
             <div className="flex flex-col ml-8 projectDescription">
                 <h1 className="text-black font-bold">YoloV5 AI Object Detection & Recognition</h1>
-                <p className="text-black">Using Ultralytic's YoloV5 algorithm, I trained and analyzed 20 different possible
+                <p className="text-gray-500">Using Ultralytic's YoloV5 algorithm, I trained and analyzed 20 different possible
                 objects for recognition, where model evaluations contain an average of 79% confidence rate.</p>
                 {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-                <p className={"text-gray-400 cursor-pointer hover:text-[#8477ff] transition-all underline demoLinks"} onClick={handleGithubProjectLink}>Github Link</p>
+                <p className={"text-[#8477ff] cursor-pointer hover:text-[#8459FF] transition-all underline demoLinks"} onClick={handleGithubProjectLink}>Github Link</p>
 
                 <div className="flex mt-3 scale-90 flex-wrap projectFrameworks">
                     <PythonCL/>
