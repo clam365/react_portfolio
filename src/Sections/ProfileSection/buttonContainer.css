@@ -15,7 +15,7 @@
 }
 
 .btn-color-1, .btn-color-2 {
-    border: black 0.1rem solid;
+
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
@@ -23,13 +23,13 @@
 }
 
 .btn-color-1, .btn-color-2:hover {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }
 
 .btn-color-1:hover {
-    background: white;
-    color: black;
+    background-color: #8477ff;
+    color: white;
 }
 
 .btn-color-2 {
@@ -37,5 +37,6 @@
 }
 
 .btn-color-2:hover {
-    border: black 0.1rem solid; /* outline of box */
+    background-color: #8477ff;
+    color: white;
 }

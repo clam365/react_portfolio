@@ -11,8 +11,8 @@ export default function AboutSection() {
 
     return (
         <section id="about" className={'z-50 relative '}>
-            <p className={'section__text__p1'}>Get To Know More</p>
-            <h1 className={'text-black font-bold text-[3rem] text-center -m-[15px]  aboutMeText'}>ABOUT ME</h1>
+            <p className={'section__text__p1  '}>Get To Know More</p>
+            <h1 className={'  font-bold text-[3rem] text-center -m-[15px]  aboutMeText'}>ABOUT ME</h1>
             <AboutDetailsContainer/>
                 <br/>
                 <br/>
