@@ -1,0 +1,29 @@
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+nav, .nav-links {
+    display: flex; /* puts nav bar horizontal top */
+    background: transparent;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    background-color: transparent;
+    color: black;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    background: transparent;
+
+}

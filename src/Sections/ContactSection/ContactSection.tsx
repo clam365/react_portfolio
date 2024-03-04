@@ -3,7 +3,7 @@ import LinkedInIcon from "../../assets/linkedin2.png";
 import "./contact.css";
 export default function ContactSection() {
     return(
-        <section id={"contact"}>
+        <section id={"contact"} className={"-mb-5"}>
             <p className="section__text__p1 ">Let's Get in Touch</p>
             <h1 className="title font-semibold">CONTACT ME</h1>
 

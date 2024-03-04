@@ -7,6 +7,7 @@ import AboutSection from "./Sections/AboutSection/AboutSection";
 import SkillsSection from "./Sections/SkillsSection/SkillsSection";
 import ProjectSection from "./Sections/ProjectsSection/ProjectSection";
 import ContactSection from "./Sections/ContactSection/ContactSection";
+import WebsiteFooter from "./Sections/FooterEnding/WebsiteFooter";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <SkillsSection/>
             <ProjectSection/>
             <ContactSection/>
+            <WebsiteFooter/>
         </body>
 
     );
