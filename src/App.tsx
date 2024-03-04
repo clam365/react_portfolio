@@ -1,10 +1,10 @@
-import ProfileSection from "../src/Sections/ProfileSection/Profile";
-import AboutSection from "./Sections/AboutSection/AboutSection";
 import "./App.css";
 import "./mediaqueries.css";
 import NavLinks from "./Nav/NavLinks";
 import HamburgerNav from "./Nav/HamburgerNav";
-
+import ProfileSection from "../src/Sections/ProfileSection/Profile";
+import AboutSection from "./Sections/AboutSection/AboutSection";
+import SkillsSection from "./Sections/SkillsSection/SkillsSection";
 
 function App() {
 
@@ -21,6 +21,7 @@ function App() {
             <HamburgerNav/>
             <ProfileSection/>
             <AboutSection/>
+            <SkillsSection/>
         </body>
 
     );

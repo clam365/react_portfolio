@@ -105,7 +105,7 @@ a:hover {
 
 /* section global css */
 section {
-    height: 83vh;
+    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
