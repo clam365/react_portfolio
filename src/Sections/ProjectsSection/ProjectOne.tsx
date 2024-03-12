@@ -27,11 +27,11 @@ export default function ProjectOne(){
                 <div className="flex mt-3 scale-90 flex-wrap projectFrameworks">
                     <ReactJSCL/>
                     <div
-                        className="bg-[#8477ff] text-white drop-shadow-md scale-95 mb-1 inline-block p-2 mr-1 pl-5 pr-5 rounded-full hover:bg-[#8459FF] hover:scale-100 transition-all ">
+                        className="bg-[#8477ff] text-white drop-shadow-md scale-95 mb-1 inline-block p-2 mr-1 pl-5 pr-5 rounded-full hover:bg-[#8459FF]  ">
                         <p className="text-white font-semibold">PostgreSQL</p>
                     </div>
                     <div
-                        className="bg-[#8477ff] text-white drop-shadow-md scale-95 mb-1 inline-block p-2 mr-1 pl-5 pr-5 rounded-full hover:bg-[#8459FF] hover:scale-100 transition-all ">
+                        className="bg-[#8477ff] text-white drop-shadow-md scale-95 mb-1 inline-block p-2 mr-1 pl-5 pr-5 rounded-full hover:bg-[#8459FF] ">
                         <p className="text-white font-semibold">AWS</p>
                     </div>
                     <AxiosCL/>

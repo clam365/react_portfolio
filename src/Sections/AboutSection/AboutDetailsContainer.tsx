@@ -9,7 +9,7 @@ export default function AboutDetailsContainer() {
 
             <div className="section__pic-container">
                 <img src={BeautifulMe} alt="Profile"
-                     className="about-pic rounded-full hover:scale-105 transition-all drop-shadow-2xl" />
+                     className="about-pic rounded-full drop-shadow-2xl" />
             </div>
             <div className="about-details-container">
                 <BasicAboutInfo/>
